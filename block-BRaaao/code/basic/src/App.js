@@ -18,13 +18,13 @@ function Header() {
       <div className='container flex jsb'>
         <strong>Onkar</strong>
         <div className='header-nav'>
-          <a className='btn' href='#'>
+          <a className='btn' href='/'>
             Home
           </a>
-          <a className='btn' href='#'>
+          <a className='btn' href='/'>
             About
           </a>
-          <a className='btn' href='#'>
+          <a className='btn' href='/'>
             Contact
           </a>
         </div>
@@ -64,7 +64,7 @@ function Article(props) {
   return (
     <article className='article'>
       <div className='flexi-img'>
-        <img src={props.user.urlToImage} />
+        <img src={props.user.urlToImage} alt='images' />
       </div>
       <h4>{props.user.title}</h4>
     </article>
@@ -77,13 +77,13 @@ function Footer() {
       <div className='container flex jsb'>
         <small>&:copy 2020 All rights received</small>
         <div className='header-nav'>
-          <a className='btn' href='#'>
+          <a className='btn' href='/'>
             Home
           </a>
-          <a className='btn' href='#'>
+          <a className='btn' href='/'>
             About
           </a>
-          <a className='btn' href='#'>
+          <a className='btn' href='/'>
             Contact
           </a>
         </div>
