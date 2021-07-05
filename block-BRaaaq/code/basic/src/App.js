@@ -65,7 +65,7 @@ function Article(props) {
   return (
     <article className='article'>
       <div className='flexi-img'>
-        <img src={props.user.urlToImage} />
+        <img src={props.user.urlToImage} alt='imagename' />
       </div>
       <h4>{props.user.title.toUpperCase()}</h4>
     </article>
@@ -81,7 +81,7 @@ function Footer() {
   return (
     <header className='footer'>
       <div className='container flex jsb'>
-        <small>&:copy 2020 All rights received</small>
+        <small>&copy; 2020 All rights received</small>
         <div className='header-nav'>
           <a className='btn' href='#'>
             Home
