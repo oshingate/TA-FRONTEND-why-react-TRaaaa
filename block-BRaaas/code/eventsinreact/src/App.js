@@ -11,6 +11,7 @@ function App() {
       <Hero />
       <Help />
       <Greet />
+      <Greet />
       <Fruite />
     </div>
   );
